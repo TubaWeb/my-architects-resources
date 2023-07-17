@@ -121,8 +121,14 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .teams-container {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-container{
+        padding: 10px;
     }
 }
 
@@ -134,4 +140,12 @@ main{
     nav{
         flex-direction: column;
     }
+    .teams-container{
+        flex-direction: column-reverse;
+        padding: 30px;
+        gap: 50px;
+    }
+    /* .teams-img-container{
+        grid-template-columns: 1fr;
+    } */
 }
